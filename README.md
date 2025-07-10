@@ -153,7 +153,7 @@ Go to File-> Save As -> Download a Copy
 
     + **Analysis:** Role-based analysis to identify positions with high turnover or knowledge dependency.
 
-5. Age
+5. **Age**
 
     + **Description:** Age of the employee.
 
@@ -162,3 +162,103 @@ Go to File-> Save As -> Download a Copy
     + **Example:** 30, 45
 
     + **Analysis:** Age demographics analysis to identify trends in retention and engagement across age groups.
+
+6. **Gender**
+
+    + **Description:** Gender of the employee.
+
+    + **Data Type:** String
+
+    + **Example:** "Male", "Female"
+
+    + **Analysis:** Gender-based analysis to assess diversity and inclusion metrics.
+
+7. **Tenure Years**
+
+    + **Description:** Total number of years the employee has worked at the company.
+
+    + **Data Type:** Float
+
+    + **Example:** 3.5, 12.0
+
+    + **Analysis:** Tenure analysis to understand the correlation between experience and turnover or performance.
+
+8. **Engagement_Score**
+
+    + **Description:** Engagement level of the employee, often derived from survey data.
+
+    + **Data Type:** Float (0.0-1.0)
+ 
+    + **Example:** 0.85, 0.65
+
+    + **Analysis:** Engagement trend analysis to find links between engagement levels and retention.
+
+9. **Workload_Score**
+
+    + **Description:** Score indicating the employee's perception of their workload (0.0-1.0 scale).
+
+    + **Data Type:** Float
+
+    + **Example:** 0.75, 0.90
+
+    + **Analysis:** Workload impact analysis to see how workload correlates with turnover or engagement.
+
+10. **Exit_Interview_Feedback**
+
+    + **Description:** Categorical summary of feedback received during exit Interviews.
+
+    + **Data Type:** String
+
+    + **Example:** "Lack of Growth", "Cultural Issues"
+
+    + **Analysis:** Identifies common themes leading to turnover, aiding in targeted interventions.
+
+11. **Reason_For_Turnover**
+
+    + **Description:** Main reason the employee left the company.
+
+    + **Data Type:** String
+
+    + **Example:** "Burnout", "Better Opportunity"
+
+    + **Analysis:** Turnover reason analysis to inform retention strategies.
+
+12. **Knowledge_Dependency_Level**
+
+    + **Description:** Indicates the level of dependency on the employee's knowledge (e.g., Low, Medium, High).
+
+    + **Data Type:** String
+
+    + **Example:** "High", "Medium"
+
+    + **Analysis:** Assesses critical knowledge roles to prioritize knowledge transfer programs.
+
+13. **Key_Project_Participation**
+
+    + **Description:** Boolean indicator if the employee participated in key projects.
+
+    + **Data Type:** Boolean
+
+    + **Example:** True, False
+
+    + **Analysis:** Evaluates the impact of turnover on key project outcomes.
+
+14. **Productivity_Impact_Score**
+
+    + **Description:** Score indicating how the employee's departure impacted productivity (0-10 scale).
+
+    + **Data Type:** Integer
+
+    + **Example:** 8, 5
+
+    + **Analysis:** Measures the impact of turnover on team and project productivity.
+
+15. **Performance Score**
+
+    + **Description:** Last performance evaluation score of the employee (0.0-5.0 scale).
+
+    + **Data Type:** Float
+   
+    + **Example:** 4.5 , 3.2
+   
+    + **Analysis:** correlates performance with retention and internal mobolity.
